@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 
 import Thumb from "../Thumb";
-import Rate from "../Rate";
+import Rate from "../Rate/index.js";
 
 import { IMAGE_BASE_URL, POSTER_SIZE } from "../../config";
 import API from "../../API";
